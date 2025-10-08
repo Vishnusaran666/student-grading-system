@@ -1,22 +1,42 @@
-# student-grading-system
-# Student Grading System
 
-A web app to manage student grades with a React frontend and Node.js/Express/MongoDB backend.
 
-## Setup
-### Backend
-1. `cd backend`
-2. `npm install`
-3. Create `.env` with `PORT` and `MONGO_URI`
-4. Run: `node server.js`
+### **Aim**
 
-### Frontend
-1. `cd frontend`
-2. `npm install`
-3. Create `.env` with `REACT_APP_API_URL`
-4. Run: `npm start`
+The aim of the Student Grading System is to simplify the process of recording, managing, and evaluating student academic performance by providing an automated, efficient, and user-friendly platform for teachers and administrators.
 
-## Features
-- Add, edit, delete students
-- Validate grades (A-F)
-- Unique roll numbers
+---
+
+### **Features**
+
+1. **Student Management**
+
+   * Add, update, delete student details (name, roll number, course, etc.).
+2. **Grade Entry & Calculation**
+
+   * Input marks and automatically generate grades based on predefined criteria.
+3. **Search & Filter**
+
+   * Easily find students by name, roll number, or course.
+4. **Performance Reports**
+
+   * View overall student performance and individual subject results.
+5. **Role-Based Access** *(optional)*
+
+   * Separate login for admin/teacher and student to view grades.
+6. **Data Security & Storage**
+
+   * Secure handling of student academic records.
+
+---
+
+### **Technology**
+
+* **Frontend**: React.js / HTML / CSS / JavaScript
+* **Backend**: Node.js with Express.js
+* **Database**: MongoDB / MySQL (for storing student and grade data)
+* **Tools**:
+
+  * Postman (API testing)
+  * Git/GitHub (version control)
+  * VS Code (development environment)
+
